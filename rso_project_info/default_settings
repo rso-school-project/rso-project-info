@@ -1,0 +1,9 @@
+# Don't commit this to source control.
+# Eg. Include ".env" in your `.gitignore`
+
+clani = ['jk0902', 'timi']
+opis_projekta = 'Nas projekt implementira aplikacijo za deljenje slik.'
+mikrostoritve = []
+github = []
+travis = []
+dockerhub = []
