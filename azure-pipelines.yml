@@ -10,7 +10,7 @@ variables:
 
   # script variable
   - name: DOCKER_IMAGE
-    value: 'jakakokosar/rso-project-info:1.0.1'
+    value: 'jakakokosar/rso-project-info:1.1.0'
 
 steps:
 - task: UsePythonVersion@0
