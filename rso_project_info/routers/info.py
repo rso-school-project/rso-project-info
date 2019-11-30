@@ -8,10 +8,10 @@ router = APIRouter()
 @router.get('/info/')
 async def info():
     return {
-        'clani': settings.clani,
+        'clani': list(settings.clani),
         'opis_projekta': settings.opis_projekta,
-        'mikrostoritve': settings.mikrostoritve,
-        'github': settings.github,
-        'travis': settings.travis,
-        'dockerhub': settings.dockerhub,
+        'mikrostoritve': list(settings.mikrostoritve),
+        'github': list(settings.github),
+        'travis': list(settings.travis),
+        'dockerhub': list(settings.dockerhub),
     }

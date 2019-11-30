@@ -1,9 +1,9 @@
 # Don't commit this to source control.
 # Eg. Include this file in your `.gitignore`
 
-clani = ['jk0902', 'tg4956']
-opis_projekta = 'Nas projekt implementira portal za deljenje in analizo fotografij.'
-mikrostoritve = ["http://34.65.148.232/api/v1/images/", "http://34.65.158.63/api/v1/comments/"]
-github = ["https://github.com/rso-school-project/image-handler", "https://github.com/rso-school-project/image-comments"]
-travis = ["https://dev.azure.com/jakakokosar/rso_project_ci/_build?definitionId=8", "https://dev.azure.com/jakakokosar/rso_project_ci/_build?definitionId=6"]
-dockerhub = ["https://hub.docker.com/r/jakakokosar/image-handler", "https://hub.docker.com/r/jakakokosar/image-comments"]
+clani = jk0902, tg4956
+opis_projekta = Nas projekt implementira portal za deljenje in analizo fotografij.
+mikrostoritve = http://34.65.148.232/api/v1/images/, http://34.65.158.63/api/v1/comments/
+github = https://github.com/rso-school-project/image-handler, https://github.com/rso-school-project/image-comments
+travis = https://dev.azure.com/jakakokosar/rso_project_ci/_build?definitionId=8, https://dev.azure.com/jakakokosar/rso_project_ci/_build?definitionId=6
+dockerhub = https://hub.docker.com/r/jakakokosar/image-handler, https://hub.docker.com/r/jakakokosar/image-comments
